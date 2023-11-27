@@ -1,0 +1,27 @@
+/* Add CSS transitions */
+.mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .mobile-menu.open {
+    max-height: 200px; /* Set a suitable max height for your menu */
+  }
+  
+ /* CSS for the hamburger menu animation */
+.ham div {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.ham.open div:nth-child(1) {
+  transform: translateY(6px) rotate(-45deg);
+}
+
+.ham.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.ham.open div:nth-child(3) {
+  transform: translateY(-8px) rotate(45deg);
+}

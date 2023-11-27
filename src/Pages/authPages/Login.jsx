@@ -34,7 +34,7 @@ const Login = () => {
 
   return (
     <div > 
-      <div className='flex flex-col items-center bg-slate-200 w-1/2 ml-[25%] mt-10 rounded-xl'>
+      <div className='log flex flex-col items-center bg-slate-200 w-1/2 ml-[25%] mt-10 rounded-xl'>
       <h1 className='text-red-900 font-bold text-2xl my-5'>Login Here</h1>
       <form className='flex flex-col' >
          <input 

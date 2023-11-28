@@ -58,6 +58,27 @@
   .ad-inner{
     width: 40% !important;
   }
+  .pr-img{
+    width: 60% !important;
+    margin-left: 20% !important;
+  }
+  .pr-price{
+    margin-left: 20%;
+  }
+  .pr-btn{
+  width: 20% !important;
+  margin-left: 40% !important;
+  }
+  .test{
+    width: 60% !important;
+    margin-left: 20%;
+  }
+  .testimonials, .featured{
+    margin-left: 10% !important;
+  }
+  .footer{
+  margin-left: 10% !important;
+  }
 }
 
 .cat-head{

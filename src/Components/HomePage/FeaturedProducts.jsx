@@ -16,36 +16,37 @@ const FeaturedProducts = () => {
   return (
     <div>
       <div className='flex justify-between mx-10 items-center'>
-        <h2 className='text-xl font-bold mt-5'>Featured Products</h2>
+        <h2 className='text-2xl font-bold mt-5 featured '>Featured Products</h2>
         <button className='cursor-pointer border-b-2 mt-3 border-slate-900'>
           View all
         </button>
       </div>
       <Slider {...settings} className='mx-4 my-4'>
         <div>
-          <img src={ProductImage} alt='Product 1' className='pr-2'/>
+          <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
-          <p className='text-lg font-semibold'>Price: $14</p>
-          <button className='bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <p className='text-lg font-semibold pr-price'>Price: $14</p>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
         </div>
         <div>
-          <img src={ProductImage} alt='Product 1' className='pr-2'/>
+          <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
-          <p className='text-lg font-semibold'>Price: $14</p>
-          <button className='bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <p className='text-lg font-semibold pr-price'>Price: $14</p>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
         </div>
         <div>
-          <img src={ProductImage} alt='Product 1' className='pr-2'/>
+          <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
-          <p className='text-lg font-semibold'>Price: $14</p>
-          <button className='bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <p className='text-lg font-semibold pr-price'>Price: $14</p>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
         </div>
         <div>
-          <img src={ProductImage} alt='Product 1' className='pr-2'/>
+          <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
-          <p className='text-lg font-semibold'>Price: $14</p>
-          <button className='bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <p className='text-lg font-semibold pr-price'>Price: $14</p>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
         </div>
+    
         
         
       </Slider>

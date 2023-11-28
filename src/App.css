@@ -36,3 +36,7 @@
    margin: 5rem 0 !important;
   }
 }
+
+.shadow{
+  box-shadow: 0 0 20px rgb(226 ,232, 240) !important;
+}

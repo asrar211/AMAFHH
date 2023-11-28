@@ -32,19 +32,19 @@ const FeaturedProducts = () => {
           <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
           <p className='text-lg font-semibold pr-price'>Price: $14</p>
-          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[50%] ml-[25%]'>Buy Now</button>
         </div>
         <div>
           <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
           <p className='text-lg font-semibold pr-price'>Price: $14</p>
-          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[50%] ml-[25%]'>Buy Now</button>
         </div>
         <div>
           <img src={ProductImage} alt='Product 1' className='pr-2 pr-img'/>
           <h2 className='text-xl font-bold my-2 text-center'>Item 1</h2>
           <p className='text-lg font-semibold pr-price'>Price: $14</p>
-          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[40%] ml-[30%]'>Buy Now</button>
+          <button className='pr-btn bg-slate-900 text-white font-semibold p-1 mt-2 w-[50%] ml-[25%]'>Buy Now</button>
         </div>
     
         

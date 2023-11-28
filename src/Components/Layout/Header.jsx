@@ -11,14 +11,14 @@ const Header = () => {
   return (
     <div className='px-4 py-3 bg-slate-200 shadow-lg'>
       <div className='max-w-7xl mx-auto flex items-center justify-between'>
-        <h1 className='text-2xl font-bold'><b>AMAFHH-</b>eStore</h1>
+        <h1 className='text-2xl font-bold text-slate-900'><b>AMAFHH-</b>eStore</h1>
 
         {/* Mobile Menu (Hamburger icon) */}
         <div className='md:hidden cursor-pointer mr-5' onClick={toggleMenu}>
           <div className={`ham ${showMenu ? 'open' : ''}`}>
-            <div className="bg-red-900 w-[20px] h-[3px] mb-1"></div>
-            <div className="bg-red-900 w-[20px] h-[3px] mb-1"></div>
-            <div className="bg-red-900 w-[20px] h-[3px]"></div>
+            <div className="bg-slate-900 w-[20px] h-[3px] mb-1"></div>
+            <div className="bg-slate-900 w-[20px] h-[3px] mb-1"></div>
+            <div className="bg-slate-900 w-[20px] h-[3px]"></div>
           </div>
         </div>
 

@@ -3,7 +3,7 @@ import Cat from "../../assets/images/cat.jpg"
 
 const Categories = () => {
   return (
-    <div className='grid grid-cols-2 gap-5 my-5 mx-5 md:grid-cols-4 md:my-10'>
+    <div className='grid grid-cols-1 gap-5 my-5 mx-5 md:grid-cols-4 md:my-10'>
         <div className='mb-5 '>
             <img src={Cat} alt="" />
             <h2 className='text-center font-bold'>Category 1</h2>

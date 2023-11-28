@@ -12,7 +12,7 @@ const SearchBar = () => {
     <div>
         <div className='flex justify-center items-center mt-5 '>
         <input 
-        className=' search shadow text-lg px-2 py-1  rounded-full outline-none mx-5'
+        className=' search text-lg px-2 py-1  outline-none mx-5'
         type="text"
         placeholder='Search Here'
         onChange={handleChange}

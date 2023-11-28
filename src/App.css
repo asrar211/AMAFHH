@@ -55,6 +55,9 @@
     left: 47% !important;
     padding: 2px;
   }
+  .ad-inner{
+    width: 40% !important;
+  }
 }
 
 .cat-head{
@@ -78,5 +81,12 @@
 }
 .cat:hover{
   opacity: 10;
+  transition: 0.5s ease;
 }
 
+.ad{
+  background-image: url(./assets/images/cat.jpg);
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}

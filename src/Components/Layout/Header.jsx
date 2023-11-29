@@ -54,9 +54,9 @@ const Header = () => {
               {/* <Link to="/register"><li>Register</li></Link> */}
             </ul>
             <div className="flex justify-center items-center gap-4">
-            <FaFacebook size={20} />
-          <FaInstagram size={20} />
-          <FaWhatsapp size={20} />
+            <a href=""><FaFacebook size={25} /> </a>
+            <a href=""><FaInstagram size={25} /></a>
+            <a href=""><FaWhatsapp size={25} /></a>
             </div>
             <div className="text-sm text-center mt-4">
             <p>&copy; 2023 KDevelopers. All Rights Reserved.</p>

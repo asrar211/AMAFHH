@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import { CgProfile } from "react-icons/cg";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -52,6 +53,14 @@ const Header = () => {
               {/* <Link to="/cart"><li>Cart(0)</li></Link> */}
               {/* <Link to="/register"><li>Register</li></Link> */}
             </ul>
+            <div className="flex justify-center items-center gap-4">
+            <FaFacebook size={20} />
+          <FaInstagram size={20} />
+          <FaWhatsapp size={20} />
+            </div>
+            <div className="text-sm text-center mt-4">
+            <p>&copy; 2023 KDevelopers. All Rights Reserved.</p>
+            </div>
           </div>
         )}
       </div>

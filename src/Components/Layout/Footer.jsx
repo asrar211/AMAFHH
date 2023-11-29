@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { gsap } from "gsap";
 

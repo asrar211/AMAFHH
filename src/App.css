@@ -26,6 +26,24 @@
   transform: translateY(-8px) rotate(45deg);
 }
 
+
+.shop-now-btn {
+  position: absolute;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
 @media screen and (max-width: 768px) {
   .reg{
     width: 100% !important;

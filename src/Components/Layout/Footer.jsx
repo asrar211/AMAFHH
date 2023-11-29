@@ -19,7 +19,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="bg-slate-200 py-10">
+    <div className="bg-slate-200 py-10 mt-5">
       <div className="mx-5 pt-10">
         <h2 className="text-2xl font-bold footer">AMAFHH eStore</h2>
         <p ref={textRef} className="mt-4 text-xl font-semibold opacity-80 footer">

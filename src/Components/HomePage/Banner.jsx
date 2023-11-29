@@ -18,13 +18,13 @@ const Banner = () => {
   };
 
   return (
-    <div className="relative mt-5">
+    <div className="relative mt-5 overflow-hidden">
       <Slider {...settings}>
         <div className="relative">
           <img
             src={Cat}
             alt="Cat 1"
-            className="carousel-image w-full "
+            className="carousel-image w-[100vw] "
           />
           <button className="shop-now-btn absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Shop Now</button>
         </div>
@@ -32,7 +32,7 @@ const Banner = () => {
           <img
             src={Cat2}
             alt="Cat 2"
-            className="carousel-image w-full "
+            className="carousel-image w-[100vw] "
           />
           <button className="shop-now-btn absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Shop Now</button>
         </div>
@@ -40,7 +40,7 @@ const Banner = () => {
           <img
             src={Cat}
             alt="Cat 3"
-            className="carousel-image w-full "
+            className="carousel-image w-[100vw] "
           />
           <button className="shop-now-btn absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Shop Now</button>
         </div>

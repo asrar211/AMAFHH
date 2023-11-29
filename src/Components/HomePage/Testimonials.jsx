@@ -33,7 +33,7 @@ const Testimonials = () => {
     const elements = document.querySelectorAll('.testimonial-slide');
     elements.forEach((element) => {
       gsap.from(element, {
-        opacity: 0,
+        opacity: 1,
         y: 30,
         duration: 1,
         scrollTrigger: {

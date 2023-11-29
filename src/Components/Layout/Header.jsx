@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { FaCartShopping } from "react-icons/fa6";
+import { CgProfile } from "react-icons/cg";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,12 +30,12 @@ const Header = () => {
           <ul className='flex gap-6'>
             <Link to="/"><li>Home</li></Link>
             <Link to="/products"><li>Products</li></Link>
-            <Link to="/cart"><li>Cart(0)</li></Link>
+            <Link to="/cart" className="float-right mt-1"><li><FaCartShopping size={20} /></li></Link>
           </ul>
 
           <ul className='flex gap-6'>
-            <Link to="/register"><li>Register</li></Link>
-            <Link to="/login"><li>Login</li></Link>
+            {/* <Link to="/register"><li>Register</li></Link> */}
+            <Link to="/login" className="float-right "><li><CgProfile size={25}/></li></Link>
           </ul>
         </div>
       </div>
@@ -42,12 +44,13 @@ const Header = () => {
       <div className={`mobile-menu ${showMenu ? 'open' : ''}`}>
         {showMenu && (
           <div className='md:hidden bg-gray-200 w-full py-2'>
+           <Link to="/cart" className="float-right mt-2 mx-5"><FaCartShopping size={20} /></Link>
+           <Link to="/login" className="float-right mt-1"><CgProfile size={25}/></Link>
             <ul className='flex flex-col gap-4'>
               <Link to="/"><li>Home</li></Link>
               <Link to="/products"><li>Products</li></Link>
-              <Link to="/cart"><li>Cart(0)</li></Link>
-              <Link to="/register"><li>Register</li></Link>
-              <Link to="/login"><li>Login</li></Link>
+              {/* <Link to="/cart"><li>Cart(0)</li></Link> */}
+              {/* <Link to="/register"><li>Register</li></Link> */}
             </ul>
           </div>
         )}

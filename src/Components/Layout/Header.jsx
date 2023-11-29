@@ -50,6 +50,7 @@ const Header = () => {
             <ul className='flex flex-col gap-4'>
               <Link to="/"><li>Home</li></Link>
               <Link to="/products"><li>Products</li></Link>
+              <Link to="/contact"><li>Contact</li></Link>
               {/* <Link to="/cart"><li>Cart(0)</li></Link> */}
               {/* <Link to="/register"><li>Register</li></Link> */}
             </ul>

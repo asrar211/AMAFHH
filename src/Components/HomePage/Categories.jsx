@@ -24,12 +24,17 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 gap-8 my-16 mx-12 md:grid-cols-4 md:my-10">
+    <>
+    <div>
+      <h2 className='text-3xl font-bold text-center mt-10'>Collections</h2>
+    </div>
+    <div className="grid grid-cols-1 gap-8 mb-16 mx-12 md:grid-cols-4 md:my-10">
       <CategoryItem image={Cat} title="Category 1" ref={(el) => (categoriesRef.current[0] = el)} />
       <CategoryItem image={Cat1} title="Category 2" ref={(el) => (categoriesRef.current[1] = el)} />
       <CategoryItem image={Cat} title="Category 3" ref={(el) => (categoriesRef.current[2] = el)} />
       <CategoryItem image={Cat1} title="Category 4" ref={(el) => (categoriesRef.current[3] = el)} />
     </div>
+    </>
   );
 };
 

@@ -12,6 +12,7 @@ import './App.css'
 
 
 import {BrowserRouter , Routes, Route} from "react-router-dom"
+import Admin from './Pages/protectedPages/Admin'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/admin" element={<Admin />} />
       </Routes>
       <Footer />
      </BrowserRouter> 

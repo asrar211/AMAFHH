@@ -13,6 +13,9 @@ import './App.css'
 
 import {BrowserRouter , Routes, Route} from "react-router-dom"
 import Admin from './Pages/protectedPages/Admin'
+import AddProducts from './Pages/protectedPages/AddProducts'
+import AllProducts from './Pages/protectedPages/AllProducts'
+
 
 const App = () => {
   return (
@@ -27,6 +30,8 @@ const App = () => {
       <Route path="/cart" element={<Cart />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/admin" element={<Admin />} />
+      <Route path="/admin/add" element={<AddProducts />} />
+      <Route path="/admin/all" element={<AllProducts />} />
       </Routes>
       <Footer />
      </BrowserRouter> 

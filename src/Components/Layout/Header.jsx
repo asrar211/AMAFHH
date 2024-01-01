@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className='px-4 py-3 bg-slate-200 shadow-lg'>
       <div className='max-w-7xl mx-auto flex items-center justify-between'>
-        <h1 className='text-2xl font-bold text-slate-900'><b>AMAFHH-</b>eStore</h1>
+       <Link to='/'> <h1 className='text-2xl font-bold text-slate-900'><b>AMAFHH-</b>eStore</h1></Link>
 
         {/* Mobile Menu (Hamburger icon) */}
         <div className='md:hidden cursor-pointer mr-5' onClick={toggleMenu}>
